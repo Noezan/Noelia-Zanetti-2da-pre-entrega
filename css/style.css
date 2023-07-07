@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#logo{
+   margin: 20px 600px 50px 20px;
+   width: 300px;
+   height: auto;
+}
+.colorPagina{
+    background-color: rgba(239, 235, 235, 0.964);
+    border-top: 5px solid black;
+    width: 100%
+}
+
+.tituloDeInicio{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px
+}
+
+.textoDeHome{
+    margin-bottom: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 60px;
+}
+
+.foot{
+    text-align: center;
+    margin-bottom: 100px;
+    padding-bottom: 40px;
+    margin-top: 30px;
+}
+.tituloDePagina{
+    text-align: center;
+    margin: 50px auto 50px auto;
+    font-family: ;
+    font-size: 40px
+}
+.tituloPresentacion {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Dancing Script', cursive;
+}
+.col {
+    align-items: center;
+}
+
+.textoDePagina {
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+}
+.verMasPresentacion{
+    margin: auto auto;
+}
+
+ 
+ #presentacion {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    padding: 50px;
+} 
+
+@media (max-width: 768px) {
+    #presentacion {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+        margin: 50px;
+    }
+
+} */
+
+.tituloServicio{
+    margin: 40px;
+    text-align: center;
+} 
+.parrafoServicio {
+    text-align: center;
+    margin-top: 10px;
+    padding: 50px;
+} 
+
+#servicios-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    gap: 10px;
+    text-align: center;
+    padding: 20px;
+} 
+
+/* .servicios{
+    background-color: whitesmoke;
+} */
+
+@media (max-width: 768px) {
+    #servicios-layout {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+
+.tituloTaller {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: 200px;
+}
+
+.parrafoTaller{
+    text-align: left;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+.consulta{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px
+}
+#formulario{
+    margin: auto;
+    margin-bottom: 100px;
+}
+.enviar{
+    margin-left: 190px;
+}
+@media (max-width: 768px) {
+    .form{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+}
