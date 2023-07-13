@@ -13,9 +13,11 @@
 .colorPagina{
     background-color: rgba(239, 235, 235, 0.964);
     border-top: 5px solid black;
+
+}
+.imgInicio{
     width: 100%;
 }
-
 .tituloDeInicio{
     margin-top: 100px;
     margin-bottom: 50px;
@@ -25,9 +27,7 @@
 }
 
 .textoDeHome {
-    margin-bottom: 40px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-bottom: 20px;
     padding: 60px;
 }
 
@@ -52,27 +52,34 @@
     text-align: center;
     margin: auto;
     padding: 15px;
+    margin: 25px;
 }
 .verMasPresentacion{
     margin: auto auto;
 }
+.imagenCaro{
+    width: 400px;
+    height: auto;
+    margin-top: 80px;
+}
 
  
-/*  #presentacion {
+#presentacion {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
     align-items: center;
     padding: 50px;
-} */ 
+} 
 
 @media (max-width: 768px) {
     #presentacion {
+        FONT-WEIGHT: 500;
         display: grid;
         grid-template-columns: 1fr;
         justify-items: center;
         align-items: center;
-        margin: 50px;
+        margin: 10px;
     }
 
 } 
@@ -88,12 +95,28 @@
 
 #servicios-layout {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     width: 100%;
-    gap: 30px;
+    gap: 20px;
     text-align: center;
     padding: 20px;
 } 
+.img1Servicios {
+    width: 350px;
+    height: auto;
+}
+.img2Servicios {
+    width: 350px;
+    height: auto;
+}
+.img3Servicios {
+    width: 350px;
+    height: auto;
+}
+.img4Servicios {
+    width: 350px;
+    height: auto;
+}
 
 
 
