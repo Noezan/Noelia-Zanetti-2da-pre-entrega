@@ -148,18 +148,7 @@
     font-family: 'Dancing Script', cursive;
     font-size: 40px
 }
-#formulario{
-    margin: auto;
-    margin-bottom: 100px;
-}
-.enviar{
-    margin-left: 190px;
-}
-@media (max-width: 768px) {
-    .form{
-        display: grid;
-        grid-template-columns: 1fr;
-        justify-items: center;
-        align-items: center;
-    }
+
+#formulario {
+    text-align: center;
 }
