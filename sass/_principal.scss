@@ -1,0 +1,16 @@
+main {
+    .imgInicio {
+        width: 100%;
+    }
+    .tituloDeInicio{
+        margin-top: 100px;
+        margin-bottom: 50px;
+        text-align: center;
+        font-family: $fuenteTitulos;
+        font-size: 40px
+    }
+    .textoDeHome {
+        margin-bottom: 20px;
+        padding: 60px;
+    }
+}

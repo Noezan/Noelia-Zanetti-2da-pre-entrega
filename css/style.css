@@ -1,42 +1,10 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-}
 
-#logo{
-   margin: 20px 600px 50px 20px;
-   width: 300px;
-   height: auto;
-}
-.colorPagina{
-    background-color: rgba(239, 235, 235, 0.964);
-    border-top: 5px solid black;
 
-}
-.imgInicio{
-    width: 100%;
-}
-.tituloDeInicio{
-    margin-top: 100px;
-    margin-bottom: 50px;
-    text-align: center;
-    font-family: 'Dancing Script', cursive;
-    font-size: 40px
-}
 
-.textoDeHome {
-    margin-bottom: 20px;
-    padding: 60px;
-}
 
-.foot {
-    text-align: center;
-    margin-bottom: 100px;
-    padding-bottom: 40px;
-    margin-top: 30px;
-}
+
+
+
 .tituloDePagina {
     text-align: center;
     margin: 50px auto 50px auto;
