@@ -5,118 +5,25 @@
 
 
 
-.tituloDePagina {
-    text-align: center;
-    margin: 50px auto 50px auto;
-    font-family: 'Dancing Script', cursive;
-    font-size: 40px
-}
-.tituloPresentacion {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-family: 'Dancing Script', cursive;
-}
-.textoDePagina {
-    text-align: center;
-    margin: auto;
-    padding: 15px;
-    margin: 25px;
-    font-size: 14px;
-}
-.verMasPresentacion{
-    margin: auto auto;
-}
-.imagenCaro{
-    width: 400px;
-    height: auto;
-    margin-top: 80px;
-}
+ 
+ 
+
+
+
 
  
-#presentacion {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
-    align-items: center;
-    padding: 50px;
-} 
+ 
 
-@media (max-width: 768px) {
-    #presentacion {
-        FONT-WEIGHT: 500;
-        display: grid;
-        grid-template-columns: 1fr;
-        justify-items: center;
-        align-items: center;
-        margin: 10px;
-    }
-
-} 
-.tituloServicio{
-    margin: 40px;
-    text-align: center;
-    font-size: 16px;
-} 
-.servicios {
-    text-align: center;
-    margin-top: 10px;
-    padding: 50px;
-} 
-
-#servicios-layout {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 100%;
-    gap: 20px;
-    text-align: center;
-    padding: 20px;
-} 
-.img1Servicios {
-    width: 50%;
-    height: auto;
-}
-.img2Servicios {
-    width: 50%;
-    height: auto;
-}
-.img3Servicios {
-    width: 50%;
-    height: auto;
-}
-.img4Servicios {
-    width: 50%;
-    height: auto;
-}
+ 
 
 
 
-@media (max-width: 768px) {
-    #servicios-layout {
-        display: grid;
-        grid-template-columns: 1fr;
-        font-size: 16px;
-    }
-}
 
-.tituloTaller {
-    margin-top: 40px;
-    margin-bottom: 10px;
-    margin-left: 200px;
-}
 
-.parrafoTaller{
-    text-align: left;
-    margin-left: 180px;
-    margin-right: 180px;
-}
-.consulta{
-    text-align: center;
-    margin-top: 100px;
-    margin-bottom: 70px;
-    font-family: 'Dancing Script', cursive;
-    font-size: 40px
-}
 
-#formulario {
-    text-align: center;
-}
+
+
+
+
+
+

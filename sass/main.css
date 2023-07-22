@@ -17,4 +17,163 @@
 
 .body {
   background-color: rgba(239, 235, 235, 0.964);
+}
+
+main .imgInicio {
+  width: 100%;
+}
+main .tituloDeInicio {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-size: 40px;
+}
+main .textoDeHome {
+  margin-bottom: 20px;
+  padding: 60px;
+}
+
+.foot {
+  text-align: center;
+  margin-bottom: 100px;
+  padding-bottom: 40px;
+  margin-top: 100px;
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.17) 20%, rgba(255, 255, 255, 0.181) 70%);
+}
+
+.tituloDePagina {
+  text-align: center;
+  margin: 50px auto 50px auto;
+  font-family: "Dancing Script", cursive;
+  font-size: 40px;
+}
+
+.tituloPresentacion {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "Dancing Script", cursive;
+}
+
+.textoDePagina {
+  text-align: center;
+  margin: auto;
+  padding: 15px;
+  margin: 25px;
+  font-size: 14px;
+}
+
+.imagenCaro {
+  width: 400px;
+  height: auto;
+  margin-top: 80px;
+}
+
+#presentacion {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.tituloServicio {
+  font-family: "Dancing Script", cursive;
+  margin: 40px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.servicios {
+  text-align: center;
+  margin-top: 10px;
+  padding: 50px;
+}
+
+#servicios-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  gap: 20px;
+  text-align: center;
+  padding: 20px;
+}
+
+.imgServicios {
+  width: 50%;
+  height: auto;
+  box-shadow: 0 5px 5px 0;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.imgServicios:hover {
+  transform: scale(1.2);
+}
+
+.imgInfo {
+  text-align: center;
+  display: block;
+  width: 50%;
+  height: auto;
+  justify-items: center;
+  margin: auto;
+  padding: 15px;
+  filter: grayscale(1);
+}
+
+.imgInfo:hover {
+  filter: saturate(1);
+}
+
+.tituloInfo {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.info-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  gap: 20px;
+  text-align: center;
+  padding: 20px;
+}
+
+.consulta {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 70px;
+  font-family: "Dancing Script", cursive;
+  font-size: 40px;
+}
+
+#formulario {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  #presentacion {
+    FONT-WEIGHT: 500;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    margin: 10px;
+  }
+}
+@media (max-width: 768px) {
+  #servicios-layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 16px;
+  }
+}
+@media (max-width: 768px) {
+  .info-layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 16px;
+  }
 }/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,24 @@
+@media (max-width: 768px) {
+    #presentacion {
+        FONT-WEIGHT: 500;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+        margin: 10px;
+    }
+}
+@media (max-width: 768px) {
+    #servicios-layout {
+        display: grid;
+        grid-template-columns: 1fr;
+        font-size: 16px;
+    }
+}
+ @media (max-width: 768px) {
+    .info-layout {
+        display: grid;
+        grid-template-columns: 1fr;
+        font-size: 16px;
+    }
+} 
