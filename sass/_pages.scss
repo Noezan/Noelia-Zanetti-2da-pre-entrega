@@ -48,7 +48,7 @@
     width: 100%;
     gap: 20px;
     text-align: center;
-    padding: 20px;
+    padding: 20px; 
 }
 .imgServicios {
     width: 50%;
@@ -82,20 +82,38 @@
 }
 .info-layout {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     width: 100%;
-    gap: 20px;
+    gap: 70px;
     text-align: center;
-    padding: 20px;
+    padding: 50px;
 }
+.box-info {
+    border: 2px solid rgb(99, 96, 96);
+    border-radius: 15px;
+    height: 500px;
+    overflow: scroll;
+    box-shadow: 0 5px 5px 0;
+    background-color: whitesmoke;
+}
+.parrafoTaller{
+    padding: 15px;
+}
+
 //contacto
 .consulta{
     text-align: center;
     margin-top: 100px;
     margin-bottom: 70px;
     font-family: 'Dancing Script', cursive;
-    font-size: 40px
+    font-size: 40px;
+    color: whitesmoke;
 }
 #formulario {
     text-align: center;
+    color: whitesmoke;
+}
+.form {
+    background-image: url(../img/carta\ natal.jpeg) !important;
+    
 }
