@@ -6,3 +6,20 @@ $fuenteTitulos: 'Dancing Script', cursive;
 $alineacionTextos: center;
 $tablet: 768px;
 $mobile: 576px;
+$fuenteContacto: 'Barlow', sans-serif;
+
+@mixin titulos {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: $fuenteTitulos;
+    font-size: 40px;
+    animation: myAnim 1s ease 0s 1 normal forwards;
+}
+@mixin parrafos {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: $fuenteTitulos;
+    font-size: 30px;
+}
